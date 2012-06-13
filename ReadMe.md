@@ -1,6 +1,9 @@
-This small project allows you to try MongoDB's Replica Set on your local machine. Follow the instruction below.
+This small project allows you to try MongoDB's Replica Set on your local machine and aims to help you understand how it works.
+Following the instruction below, you will have a replica set consisted by two mongodbs (and one arbiter).
 
-## Prepare (create direcotries for database)
+## Prepare
+
+This creates empty directories for mongodbs.
 
     % cd /path/to/replicaset (top of this repo)
     % ./prepare.sh
